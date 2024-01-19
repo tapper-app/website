@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
+import {HashRouter, Route, Routes} from "react-router-dom";
+import HomePageComponent from "./pages/home.page.component";
+import NotFoundPageComponent from "./pages/not.found.page.component";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="AppRoot">
+      <HashRouter>
+        <Routes>
+          <Route exact path="/" component={HomePageComponent}/>
+          <Route path='*' exact={true} component={NotFoundPageComponent}/>
+        </Routes>
+      </HashRouter>
     </div>
   );
 }

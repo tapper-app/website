@@ -8,8 +8,8 @@ function App() {
     <div className="AppRoot">
       <HashRouter>
         <Routes>
-          <Route exact path="/" component={HomePageComponent}/>
-          <Route path='*' exact={true} component={NotFoundPageComponent}/>
+          <Route exact path="/" element={<HomePageComponent />}/>
+          <Route path='*' exact={true} element={<NotFoundPageComponent />}/>
         </Routes>
       </HashRouter>
     </div>

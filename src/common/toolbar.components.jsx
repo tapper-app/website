@@ -12,7 +12,10 @@ export default function ToolbarComponents() {
                 <Link to={"/"} className={"mr-6 toolbar-link"}>Home</Link>
                 <Link to={"/downloads"} className={"mr-6 toolbar-link"}>Downloads</Link>
                 <Link to={"/docs"} className={"mr-6 toolbar-link"}>Docs</Link>
-                <GitHubIcon />
+                <Link to={"/contribute"} className={"mr-6 toolbar-link"}>Contribute</Link>
+                <a href={"https://github.com/tapper-app"}>
+                    <GitHubIcon />
+                </a>
             </div>
         </div>
     );

@@ -6,7 +6,7 @@ export default function HomeBannerComponent() {
         <div className={"PageContainer"}>
             <div className={"AndroidLogoContainer flex items-center justify-between mx-auto"} style={{
                 position: "absolute",
-                width: "100vw"
+                width: "100%"
             }}>
                <div className={"FirstImage"}  style={{ marginBottom: "70vh" }}>
                    <img loading="lazy"
@@ -34,10 +34,11 @@ export default function HomeBannerComponent() {
 
             <div className={"PageHeader flex items-center justify-between mx-auto p-4"}>
                 <div className={"TextContent p-4 mx-auto"}>
-                    <h5 className={"text-lg md:text-l lg:text-l xl:text-l"}>ADB Interface Manager</h5>
-                    <h1 className={"text-lg md:text-xl lg:text-2xl xl:text-3xl"}>Tapper</h1>
-                    <h3 className={"Description text-lg md:text-l lg:text-l xl:text-l"}>Execute ADB Commands with User Interface Application</h3>
+                    <h5 className={"text-4xs md:text-4xs lg:text-4xs xl:text-4xs"}>ADB Interface Manager</h5>
+                    <h1 className={"text-lg md:text-xl lg:text-2xl xl:text-3xl"} style={{ color: "#71d88d" }}>Tapper</h1>
+                    <h3 className={"Description text-lg md:text-l lg:text-l xl:text-l"}><strong>Opensource Application</strong> to Execute ADB Commands with User Interface Application</h3>
                     <h3 className={"Description2 text-lg md:text-l lg:text-l xl:text-l"}>Tapper is an Testing Environment, TestScenarios Execution also with ADB Events All of them inside One Desktop Application to Manage all of them</h3>
+                    <h3 className={"Description2 text-lg md:text-l lg:text-l xl:text-l"}>With Tapper now No need to Save ADB Commands and Remember all of them, Now One Application can Boost your Android Development Environment by Adding a Test Scenarios for Your Apps or Executing Commands with GUI</h3>
                     <div className="flex justify-left flex-wrap pt-8">
                         <a
                             href="https://tapperapp.com/downloads"

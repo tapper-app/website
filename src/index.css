@@ -83,3 +83,30 @@ ul {
   max-width: 40vw;
   margin-top: 20px;
 }
+
+.image-gallery {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh; /* Set the desired height */
+}
+
+.image-container {
+  flex: 1;
+  z-index: 1000;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Hover effect */
+.image-container:hover {
+  transform: scale(1.1); /* Increase the scale on hover */
+  z-index: 1; /* Move the hovered image to the front */
+}

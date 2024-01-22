@@ -42,9 +42,9 @@ export default function HomeBannerComponent() {
                     <div className="flex justify-left flex-wrap pt-8">
                         <a
                             href="https://tapperapp.com/downloads"
+                            target="_blank"
                             className={"rounded-full text-black bg-white transition duration=300 ease-in-out flex items-start animate-bounce p-5 text-sm pr-8 pl-8"}>
                             Download
-                            target="_blank"
                         </a>
                     </div>
                 </div>

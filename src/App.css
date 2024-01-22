@@ -84,3 +84,16 @@
   cursor: pointer;
   font-size: 1rem;
 }
+
+footer {
+  background-color: #1E262C; /* Set footer background color */
+  color: #fff; /* Set text color in the footer */
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #fff; /* Set link color in the footer */
+  margin: 0 10px; /* Add some spacing between links */
+  text-decoration: none;
+}

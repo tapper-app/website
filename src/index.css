@@ -110,3 +110,7 @@ ul {
   transform: scale(1.1); /* Increase the scale on hover */
   z-index: 1; /* Move the hovered image to the front */
 }
+
+.notFoundContent {
+  height: 47vh;
+}

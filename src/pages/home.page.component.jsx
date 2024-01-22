@@ -5,7 +5,7 @@ import HomeBannerComponent from "../views/home.banner.component";
 import HomeInfoSection from "../views/home.info.section";
 import HomeAppFeatures from "../views/home.app.features";
 import HomeRepositoriesComponent from "../views/home.repositories.component";
-import AppFooterComponent from "../views/app.footer.component";
+import AppFooterComponent from "../common/app.footer.component";
 
 export default function HomePageComponent() {
     return (

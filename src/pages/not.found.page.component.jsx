@@ -1,7 +1,7 @@
 import React from "react";
 import ScreenContainerComponent from "../common/screen.container.component";
 import ToolbarComponents from "../common/toolbar.components";
-import AppFooterComponent from "../views/app.footer.component";
+import AppFooterComponent from "../common/app.footer.component";
 
 export default function NotFoundPageComponent() {
     return (

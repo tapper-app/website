@@ -11,7 +11,7 @@ export default function AppFooterComponent() {
                     <ul style={{ marginLeft: "1em" }}>
                         <li style={{ width: "10em", textAlign: "left", marginLeft: "5em" }}><Link className={"toolbar-link"} to={"/"}>Home</Link></li>
                         <li style={{ width: "10em", textAlign: "left", marginLeft: "5em" }}><Link className={"toolbar-link"} to={"/downloads"}>Downloads</Link></li>
-                        <li style={{ width: "10em", textAlign: "left", marginLeft: "5em" }}><Link className={"toolbar-link"} to={"/docs"}>Documentation</Link></li>
+                        <li style={{ width: "10em", textAlign: "left", marginLeft: "5em" }}><a className={"toolbar-link"} href={"https://docs.tapperapp.com"} target={"_blank"}>Documentation</a></li>
                         <li style={{ width: "10em", textAlign: "left", marginLeft: "5em" }}><Link className={"toolbar-link"} to={"/contribute"}>Contribute</Link></li>
                     </ul>
                 </div>

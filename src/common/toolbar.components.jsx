@@ -11,7 +11,7 @@ export default function ToolbarComponents() {
             <div className={"Links flex"}>
                 <Link to={"/"} className={"mr-6 toolbar-link"}>Home</Link>
                 <Link to={"/downloads"} className={"mr-6 toolbar-link"}>Downloads</Link>
-                <Link to={"/docs"} className={"mr-6 toolbar-link"}>Docs</Link>
+                <a href={"https://docs.tapperapp.com"} target={"_blank"} className={"mr-6 toolbar-link"}>Docs</a>
                 <Link to={"/contribute"} className={"mr-6 toolbar-link"}>Contribute</Link>
                 <a href={"https://github.com/tapper-app"}>
                     <GitHubIcon />

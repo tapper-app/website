@@ -39,7 +39,7 @@ export default function HomeAppFeatures() {
                                 In your Android Development Journey, No Need to Save Them in Notes, Search on Internet,
                                 Also Tapper Can Execute Testing Scenarios, Monkey Testing, Powered By Npm
                             </p>
-                            <Link to={"/docs"} className="card-button">Read More</Link>
+                            <a href={"https://docs.tapperapp.com"} target={"_blank"} className="card-button">Read More</a>
                             <br />
                             <br />
                         </div>
@@ -51,7 +51,7 @@ export default function HomeAppFeatures() {
                                 You can Access Everything from a Drop Down Menu with Input Section To Write Your Information,
                                 Also You can Create Commands By Registering Your Application Package Name
                             </p>
-                            <Link to={"/docs"} className="card-button">Read More</Link>
+                            <a href={"https://docs.tapperapp.com"} target={"_blank"} className="card-button">Read More</a>
                             <br />
                             <br />
                         </div>
@@ -63,7 +63,7 @@ export default function HomeAppFeatures() {
                                 Tapper Can Save All of your Commands and Execute them When you Need in a Sequence,
                                 for Example Tapper Can Pass Your App Flow with Coordinates Clicks Automated
                             </p>
-                            <Link to={"/docs"} className="card-button">Read More</Link>
+                            <a href={"https://docs.tapperapp.com"} target={"_blank"} className="card-button">Read More</a>
                             <br />
                             <br />
                         </div>

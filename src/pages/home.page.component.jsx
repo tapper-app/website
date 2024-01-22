@@ -4,6 +4,7 @@ import ToolbarComponents from "../common/toolbar.components";
 import HomeBannerComponent from "../views/home.banner.component";
 import HomeInfoSection from "../views/home.info.section";
 import HomeAppFeatures from "../views/home.app.features";
+import HomeRepositoriesComponent from "../views/home.repositories.component";
 
 export default function HomePageComponent() {
     return (
@@ -13,6 +14,7 @@ export default function HomePageComponent() {
                 <HomeBannerComponent />
                 <HomeInfoSection />
                 <HomeAppFeatures />
+                <HomeRepositoriesComponent />
             </main>
         </ScreenContainerComponent>
     );

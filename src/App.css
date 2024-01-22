@@ -36,3 +36,51 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  background-color: #374151; /* Dark background color for the card */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+  margin-right: 1em;
+}
+
+.card2 {
+  background-color: #374151; /* Dark background color for the card */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 350px;
+  text-align: left;
+  margin-right: 1em;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.card-content {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  height: 220px;
+}
+
+.card-content2 {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  height: 80px;
+}
+
+.card-button {
+  background-color: #71d88d;
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}

@@ -1,12 +1,13 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import GitHubIcon from "../images/github.icon";
+import Logo from "../images/logo.png";
 
 export default function ToolbarComponents() {
     return (
         <div className={"ToolbarContainer flex justify-between mx-auto p-4"}>
             <div className={"AppLogo"}>
-
+                <img src={Logo} width={"50px"} height={"50px"} alt={"Tapper Logo"} />
             </div>
             <div className={"Links flex"}>
                 <Link to={"/"} className={"mr-6 toolbar-link"}>Home</Link>

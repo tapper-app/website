@@ -49,7 +49,7 @@ export default function HomeBannerComponent() {
                     </div>
                 </div>
                 <div className={"ImageContent p-4 mx-auto"}>
-
+                    <img src={"https://github.com/tapper-app/assets/blob/main/Screenshot%202024-01-23%20at%208.21.16%E2%80%AFAM.png?raw=true"} width={"800"} height={"500"} style={{ objectFit: "contain" }} />
                 </div>
             </div>
         </div>
